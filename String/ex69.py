@@ -1,4 +1,4 @@
-from difflib import SequenceMatcher
+
 # Write a Python program to find the longest common sub-string from two given strings.
 
 def longest_substr(s1,s2):
