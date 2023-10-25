@@ -1,6 +1,6 @@
 # Write a Python program to remove duplicate characters from a given string.
 
-def duplicates(s):
+def duplicates_chars(s):
     x = set()
     st = ""
     for i in s:
