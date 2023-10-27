@@ -7,8 +7,9 @@ def duplicates_chars(s):
         if i not in x:
             x.add(i)
             st = st  + i
+        
     return st
 
 if __name__ == "__main__":
     s = "aabbcc"
-    print(duplicates(s))
+    print(duplicates_chars(s))
