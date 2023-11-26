@@ -17,7 +17,7 @@ def index_position_max_min(l):
             mi_ind.append(i)
         if l[i] == ma:
             ma_ind.append(i)
-    return "Index positions of max value: {}.\nIndex positions of min value {}".format(str(ma_ind), mi_ind)
+    return "Index positions of max value: {}.\nIndex positions of min value {}".format(ma_ind, mi_ind)
 
 if __name__ == "__main__":
     l = [12, 33, 23, 10, 67, 89, 45, 667, 23, 12, 11, 10, 54]
